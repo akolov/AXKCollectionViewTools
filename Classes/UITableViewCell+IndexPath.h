@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Alexander Kolov. All rights reserved.
 //
 
-@import UIKit.h;
+@import UIKit;
 
 @interface UITableViewCell (IndexPath)
 
