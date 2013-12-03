@@ -11,3 +11,4 @@
 #import "UICollectionViewCell+ReuseIdentifier.h"
 #import "UITableViewCell+IndexPath.h"
 #import "UITableViewCell+ReuseIdentifier.h"
+#import "UITableViewHeaderFooterView+ReuseIdentifier.h"
