@@ -1,5 +1,5 @@
 //
-//  UICollectionReusableView+ReuseIdentifier.h
+//  UICollectionReusableView+AXKCollectionViewTools.h
 //  Alexander Kolov
 //
 //  Created by Alexander Kolov on 30/10/13.
@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-@interface UICollectionReusableView (ReuseIdentifier)
+@interface UICollectionReusableView (AXKCollectionViewTools)
 
 + (NSString *)reuseIdentifier;
 

@@ -1,14 +1,14 @@
 //
-//  UITableViewHeaderFooterView+ReuseIdentifier.m
+//  UITableViewHeaderFooterView+AXKCollectionViewTools.m
 //  Alexander Kolov
 //
 //  Created by Alexander Kolov on 30/10/13.
 //  Copyright (c) 2013 Alexander Kolov. All rights reserved.
 //
 
-#import "UITableViewHeaderFooterView+ReuseIdentifier.h"
+#import "UITableViewHeaderFooterView+AXKCollectionViewTools.h"
 
-@implementation UITableViewHeaderFooterView (ReuseIdentifier)
+@implementation UITableViewHeaderFooterView (AXKCollectionViewTools)
 
 + (NSString *)reuseIdentifier {
   return NSStringFromClass([self class]);

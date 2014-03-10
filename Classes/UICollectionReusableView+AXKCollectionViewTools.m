@@ -1,14 +1,14 @@
 //
-//  UITableViewCell+ReuseIdentifier.m
+//  UICollectionReusableView+AXKCollectionViewTools.m
 //  Alexander Kolov
 //
 //  Created by Alexander Kolov on 30/10/13.
 //  Copyright (c) 2013 Alexander Kolov. All rights reserved.
 //
 
-#import "UITableViewCell+ReuseIdentifier.h"
+#import "UICollectionReusableView+AXKCollectionViewTools.h"
 
-@implementation UITableViewCell (ReuseIdentifier)
+@implementation UICollectionReusableView (AXKCollectionViewTools)
 
 + (NSString *)reuseIdentifier {
   return NSStringFromClass([self class]);

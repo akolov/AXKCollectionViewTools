@@ -1,5 +1,5 @@
 //
-//  UITableViewCell+ReuseIdentifier.h
+//  UITableViewHeaderFooterView+AXKCollectionViewTools.h
 //  Alexander Kolov
 //
 //  Created by Alexander Kolov on 30/10/13.
@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-@interface UITableViewCell (ReuseIdentifier)
+@interface UITableViewHeaderFooterView (AXKCollectionViewTools)
 
 + (NSString *)reuseIdentifier;
 

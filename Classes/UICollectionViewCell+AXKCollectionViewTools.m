@@ -1,14 +1,14 @@
 //
-//  UICollectionViewCell+IndexPath.m
+//  UICollectionViewCell+AXKCollectionViewTools.m
 //  Alexander Kolov
 //
 //  Created by Alexander Kolov on 30/10/13.
 //  Copyright (c) 2013 Alexander Kolov. All rights reserved.
 //
 
-#import "UICollectionViewCell+IndexPath.h"
+#import "UICollectionViewCell+AXKCollectionViewTools.h"
 
-@implementation UICollectionViewCell (IndexPath)
+@implementation UICollectionViewCell (AXKCollectionViewTools)
 
 - (UICollectionView *)collectionView {
   UIView *view = self.superview;
@@ -25,6 +25,10 @@
 
 - (NSIndexPath *)indexPath {
   return [self.collectionView indexPathForCell:self];
+}
+
++ (NSString *)reuseIdentifier {
+  return NSStringFromClass([self class]);
 }
 
 @end

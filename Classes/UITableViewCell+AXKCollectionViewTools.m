@@ -1,14 +1,14 @@
 //
-//  UITableViewCell+IndexPath.m
+//  UITableViewCell+AXKCollectionViewTools.m
 //  Alexander Kolov
 //
 //  Created by Alexander Kolov on 30/10/13.
 //  Copyright (c) 2013 Alexander Kolov. All rights reserved.
 //
 
-#import "UITableViewCell+IndexPath.h"
+#import "UITableViewCell+AXKCollectionViewTools.h"
 
-@implementation UITableViewCell (IndexPath)
+@implementation UITableViewCell (AXKCollectionViewTools)
 
 - (UITableView *)tableView {
   UIView *tv = self.superview;
@@ -25,6 +25,10 @@
 
 - (NSIndexPath *)indexPath {
   return [self.tableView indexPathForCell:self];
+}
+
++ (NSString *)reuseIdentifier {
+  return NSStringFromClass([self class]);
 }
 
 @end
