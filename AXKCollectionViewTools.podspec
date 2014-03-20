@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'AXKCollectionViewTools'
-  s.version      = '1.0.2'
+  s.version      = '1.0.3'
   s.license      = 'MIT'
   s.summary      = 'Useful tools to work with UICollectionView and UITableView.'
   s.author       = { 'Alexander Kolov' => 'me@alexkolov.com' }
